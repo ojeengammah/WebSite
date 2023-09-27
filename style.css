@@ -93,3 +93,10 @@
     height: 100%; /* Ensures the icons are vertically centered */
 }
 
+
+.centered-content {
+    display: flex;
+    justify-content: center;   /* This centers children horizontally */
+    align-items: center;       /* This centers children vertically */
+    height: 100%;              /* This makes the container take up the full height of its parent */
+}
