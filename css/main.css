@@ -1495,7 +1495,7 @@ header .logo a {
 
 
 #about {
-	background: #FFFFFF;
+	background: #f1ecec;
 	padding-top: 12rem;
 	padding-bottom: 15rem;
 }
@@ -1504,20 +1504,24 @@ header .logo a {
 }
 
 .intro-info {
-	margin-top: 4.2rem;
-	margin-right: -30px;
-	margin-left: -30px;
+
+	display: flex; /* Use flexbox for layout */
+  	align-items: left; /* Align items vertically */
+  	margin-right: -100px;
+  	margin-left: -100px;
 }
 .intro-info img {
-	height: 9rem;
-	width: 9rem;
-	border-radius: 50%;
-	margin: .9rem 0 0 0;
-	float: left;
+	height: 40rem;
+	width: 40rem;
+	order: 2;
+	margin: 0;
+	float: none;
+	margin-right: 1rem;
+	
 }
 .intro-info .lead {
 	text-align: left;
-	padding-left: 13rem;
+	padding-left: 2rem;
 }
 
 .about-content {
