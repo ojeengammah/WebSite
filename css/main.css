@@ -28,7 +28,6 @@
  * =================================================================== 
  */
 
- 
 
 /** 
  * ===================================================================
@@ -1086,7 +1085,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- 
  */
 header {
-	position: fixed;
+	position: absolute;
 	width: 100%;
 	min-height: 66px;
 	z-index: 600;
@@ -1096,13 +1095,15 @@ header .row {
 	min-height: 66px;
 }
 header .top-bar {
-	display: block;
-	background: #000000;
+	display: flex;
+	justify-content: space-between;
+	background: rgb(10, 10, 10);
 	min-width: 220px;
-	min-height: 66px;
-	position: absolute;
-	left: 90px;
+	min-height: 40px;
+	position: relative;
+	left: 0;
 	top: 0;
+	right: 0;
 }
 header .logo {
 	float: left;
